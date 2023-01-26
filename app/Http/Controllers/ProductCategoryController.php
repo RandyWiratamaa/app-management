@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Http;
 
 class ProductCategoryController extends Controller
 {
+
     public function index()
     {
         $res = Http::get('product-management.dev.com/api/product-categories');
